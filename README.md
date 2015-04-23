@@ -19,5 +19,5 @@ docker -H tcp://${HOST_IP_0}:2375 run -d \
     -e MESOS_HOSTNAME=${HOST_IP_0} \
     -e MESOS_IP=${HOST_IP_0} \
     -e MESOS_CLUSTER=CLUSTER0 \
-    nickpoorman/mesos-master
+    nickpoorman/docker-mesos-master
 ```
